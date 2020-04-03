@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    src: url(../fonts/JosefinSans-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    src: url(../fonts/JosefinSans-Italic.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a {
+    color: inherit;
+}
+
+h1 {
+    font-style: italic;
+}
+
+footer {
+    padding: 20px;
+    color: #434C55;
+}
